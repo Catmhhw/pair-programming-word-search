@@ -4,6 +4,7 @@ const assert = chai.assert;
 const wordSearch = require('../wordsearch.js')
 
 describe("#wordSearch()", function() {
+
   it("should return false if the word is not present", function() {
     const result = wordSearch([
       ['A', 'W', 'C', 'F', 'Q', 'U', 'A', 'L'],
@@ -35,4 +36,5 @@ describe("#wordSearch()", function() {
 
     assert.isTrue(result);
   });
+
 });
